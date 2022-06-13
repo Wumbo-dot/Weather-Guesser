@@ -1,0 +1,57 @@
+h1{
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.flex-container{
+    display: grid;
+}
+
+section{
+    display: flex;
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 50px;
+
+}
+
+.search{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+
+}
+
+#searchBtn{
+    display: block;
+    justify-content: center;
+    color: black;
+    margin: 5px;
+    border-radius: 20%;
+}
+
+.card-color{
+    background-color: lightgray;
+    color: black;
+}
+
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Guesser</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+</head>
+<body class="flex-container min-100-vh">
+    <header class="hero">
+        <h1 class="title">Weather Guesser</h1>
+        <p>Search for a city:</p>
+    </header>
+    
+    <main class="flex-row justify-space-between">
+    <div class="col-12 col-md-3">
+    <div class="hero">
+        <div class="col-12 col-md-3 card">
+            <input type="text" class="search-bar">
+            <label for="searchBtn">Search City</label>
+            <button type="submit" class="btn" id="searchBtn">Search</button>
+        </div>
+
+        <section class="block">
+            <div class="box is-outlined">
+                <div class="columns">
+                <div class="column is-three-fourths is-offset-half">
+                    <h2 class="city"><u></u></h2>
+                    <h2 class="temp">50 &#176</h2>
+                    <div class="description">Sunny</div>
+                    <div class="wind">Wind Speed</div>
+                    <div class="humidity">Humidity: 50%</div>
+                    <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+                </div>
+                </div>
+            </div>
+        </section>
+<section class="block">
+    
+        <section class="columns">
+        <div class="colum">
+
+        </div>
+
+        <div class="column card-color">
+            <h2 class="city-2"><u></u></h2>
+            <h2 class="temp-2">50 &#176</h2>
+            <div class="description-2">Sunny</div>
+            <div class="wind-2">Wind Speed</div>
+            <div class="humidity-2">Humidity: 50%</div>
+            <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+        </div>
+        <div class="column card-color">
+            <h2 class="city-3"><u>Weather</u></h2>
+            <h2 class="temp-3">50 &#176</h2>
+            <div class="description-3">Sunny</div>
+            <div class="wind-3">Wind Speed</div>
+            <div class="humidity-3">Humidity: 50%</div>
+            <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+        </div>
+        <div class="column card-color">
+            <h2 class="city-4"><u>Weather</u></h2>
+            <h2 class="temp-4">50 &#176</h2>
+            <div class="description-4">Sunny</div>
+            <div class="wind-4">Wind Speed</div>
+            <div class="humidity-4">Humidity: 50%</div>
+            <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+        </div>
+        <div class="column card-color">
+            <h2 class="city-5"><u>Weather</u></h2>
+                    <h2 class="temp-5">50 &#176</h2>
+                    <div class="description-5">Sunny</div>
+                    <div class="wind-5">Wind Speed</div>
+                    <div class="humidity-5">Humidity: 50%</div>
+                    <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+        </div>
+        <div class="column card-color">
+            <h2 class="city-6"><u>Weather</u></h2>
+                    <h2 class="temp-6">50 &#176</h2>
+                    <div class="description-6">Sunny</div>
+                    <div class="wind-6">Wind Speed</div>
+                    <div class="humidity-6">Humidity: 50%</div>
+                    <div id="icon"><img id="wicon" src="" alt="Weather icon"></div>
+        </div>
+    </div>
+    </section>
+</section>
+    </main>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./assets/js/weather.js"></script>
+
+</body>
+</html>
